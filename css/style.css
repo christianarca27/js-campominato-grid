@@ -5,7 +5,6 @@
 }
 
 body {
-    background-color: lightgreen;
     font-family: sans-serif;
 }
 
@@ -25,6 +24,10 @@ header #btn-play {
 }
 
 main {
+    background-color: lightgreen;
+}
+
+main #container-centered {
     max-width: 1000px;
     height: calc(100vh - 90px);
     margin-left: auto;
@@ -35,7 +38,7 @@ main {
     align-items: center;
 }
 
-#play-table {
+main #container-centered #play-table {
     width: 80%;
     aspect-ratio: 1;
 
@@ -43,6 +46,6 @@ main {
     flex-flow: row wrap;
 }
 
-.square {
+main #container-centered #play-table .square {
     border: 1px solid black;
 }
