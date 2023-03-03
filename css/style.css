@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgreen;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 10px 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+header #btn-play {
+    padding: 1em 2em;
+    border-radius: 10px;
+}
+
+main {
+    padding-top: 50px;
+}
+
+#play-table {
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.square {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+}
